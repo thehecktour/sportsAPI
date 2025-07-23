@@ -1,6 +1,6 @@
 # 🧠 Kroterian
 
-### A developer-friendly tool for building clean, interactive, and customizable ranking components.
+#### A developer-friendly tool for building clean, interactive, and customizable ranking components.
 
 ## 📚 Documentation
 

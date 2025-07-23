@@ -1,0 +1,19 @@
+{
+  "name": "kroterian",
+  "version": "1.0.0",
+  "description": "Make your data dance in the rank spotlight! 🕺🪩",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thehecktour/kroterian.git"
+  },
+  "author": "Hector",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thehecktour/kroterian/issues"
+  },
+  "homepage": "https://github.com/thehecktour/kroterian#readme"
+}

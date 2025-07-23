@@ -1,7 +1,6 @@
 # 🧠 Kroterian
 
-### The best way for you to understand what's happening in your project.
-### 
+### A developer-friendly tool for building clean, interactive, and customizable ranking components.
 
 ## 📚 Documentation
 

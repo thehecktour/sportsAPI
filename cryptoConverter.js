@@ -14,3 +14,11 @@ async function getCryptoInfo(cryptoId, fiatCurrency){
     }
 }
 
+async function converCrypto(cryptoId, fiatCurrency, amount){
+    const price = await getCryptoInfo(cryptoId, fiatCurrency);
+    if (price === null) return "Error in conversion!"
+
+    const total = price * amount;
+    return `${total.toFixed(2)} ${fiatCurrency.toUpperCase()}`
+}
+

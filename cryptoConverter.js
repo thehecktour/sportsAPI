@@ -1,4 +1,4 @@
-async function getCryptoInfo(cryptoId, fiatCurrency){
+async function getCryptoPrice(cryptoId, fiatCurrency){
     const url = `https://api.coingecko.com/api/v3/simple/price?ids=${cryptoId}&vs_currencies=${fiatCurrency}`;
     try {
         const response = await fetch(url);
@@ -15,7 +15,7 @@ async function getCryptoInfo(cryptoId, fiatCurrency){
 }
 
 async function converCrypto(cryptoId, fiatCurrency, amount){
-    const price = await getCryptoInfo(cryptoId, fiatCurrency);
+    const price = await getCryptoPrice(cryptoId, fiatCurrency);
     if (price === null) return "Error in conversion!"
 
     const total = price * amount;

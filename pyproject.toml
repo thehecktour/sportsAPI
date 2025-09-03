@@ -1,0 +1,19 @@
+[project]
+name = "sportsapi"
+version = "0.1.0"
+description = "Sports API"
+authors = [
+    {name = "Heck"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "django (>=5.2.6,<6.0.0)",
+    "djangorestframework (>=3.16.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

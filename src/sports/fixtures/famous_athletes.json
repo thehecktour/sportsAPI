@@ -1,0 +1,23 @@
+[
+    {
+      "model": "sports.famousathlete",
+      "pk": 1,
+      "fields": {
+        "name": "Roger Federer",
+        "country": "Switzerland",
+        "sport": "Tennis",
+        "titles": 103
+      }
+    },
+    {
+      "model": "sports.famousathlete",
+      "pk": 2,
+      "fields": {
+        "name": "Serena Williams",
+        "country": "USA",
+        "sport": "Tennis",
+        "titles": 73
+      }
+    }
+  ]
+  

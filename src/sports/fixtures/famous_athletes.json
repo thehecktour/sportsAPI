@@ -1,23 +1,22 @@
 [
-    {
-      "model": "sports.famousathlete",
-      "pk": 1,
-      "fields": {
-        "name": "Roger Federer",
-        "country": "Switzerland",
-        "sport": "Tennis",
-        "titles": 103
-      }
-    },
-    {
-      "model": "sports.famousathlete",
-      "pk": 2,
-      "fields": {
-        "name": "Serena Williams",
-        "country": "USA",
-        "sport": "Tennis",
-        "titles": 73
-      }
+  {
+    "model": "sports.famousathlete",
+    "pk": 1,
+    "fields": {
+      "name": "Roger Federer",
+      "country": "Switzerland",
+      "sport": 1,
+      "titles": 103
     }
-  ]
-  
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 2,
+    "fields": {
+      "name": "Serena Williams",
+      "country": "USA",
+      "sport": 1,
+      "titles": 73
+    }
+  }
+]

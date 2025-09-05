@@ -1,0 +1,21 @@
+[
+    {
+      "model": "sports.sport",
+      "pk": 1,
+      "fields": {
+        "name": "Tennis",
+        "category": "Individual",
+        "olympic_sport": true
+      }
+    },
+    {
+      "model": "sports.sport",
+      "pk": 2,
+      "fields": {
+        "name": "Basketball",
+        "category": "Team",
+        "olympic_sport": true
+      }
+    }
+  ]
+  

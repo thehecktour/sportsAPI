@@ -6,7 +6,13 @@
       "name": "Roger Federer",
       "country": "Switzerland",
       "sport": 1,
-      "titles": 103
+      "titles": 103,
+      "birthdate": "1981-08-08",
+      "gender": "Male",
+      "height": 1.85,
+      "weight": 85,
+      "active": false,
+      "records": "20 Grand Slam titles"
     }
   },
   {
@@ -16,7 +22,461 @@
       "name": "Serena Williams",
       "country": "USA",
       "sport": 1,
-      "titles": 73
+      "titles": 73,
+      "birthdate": "1981-09-26",
+      "gender": "Female",
+      "height": 1.75,
+      "weight": 70,
+      "active": false,
+      "records": "23 Grand Slam titles"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 3,
+    "fields": {
+      "name": "Michael Jordan",
+      "country": "USA",
+      "sport": 2,
+      "titles": 6,
+      "birthdate": "1963-02-17",
+      "gender": "Male",
+      "height": 1.98,
+      "weight": 98,
+      "active": false,
+      "records": "6 NBA Championships"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 4,
+    "fields": {
+      "name": "LeBron James",
+      "country": "USA",
+      "sport": 2,
+      "titles": 4,
+      "birthdate": "1984-12-30",
+      "gender": "Male",
+      "height": 2.06,
+      "weight": 113,
+      "active": true,
+      "records": "All-time NBA points leader"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 5,
+    "fields": {
+      "name": "Pelé",
+      "country": "Brazil",
+      "sport": 3,
+      "titles": 3,
+      "birthdate": "1940-10-23",
+      "gender": "Male",
+      "height": 1.73,
+      "weight": 70,
+      "active": false,
+      "records": "3 FIFA World Cups"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 6,
+    "fields": {
+      "name": "Lionel Messi",
+      "country": "Argentina",
+      "sport": 3,
+      "titles": 42,
+      "birthdate": "1987-06-24",
+      "gender": "Male",
+      "height": 1.70,
+      "weight": 72,
+      "active": true,
+      "records": "2022 FIFA World Cup winner, 7 Ballon d'Ors"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 7,
+    "fields": {
+      "name": "Michael Phelps",
+      "country": "USA",
+      "sport": 4,
+      "titles": 28,
+      "birthdate": "1985-06-30",
+      "gender": "Male",
+      "height": 1.93,
+      "weight": 88,
+      "active": false,
+      "records": "Most decorated Olympian with 28 medals"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 8,
+    "fields": {
+      "name": "Usain Bolt",
+      "country": "Jamaica",
+      "sport": 5,
+      "titles": 8,
+      "birthdate": "1986-08-21",
+      "gender": "Male",
+      "height": 1.95,
+      "weight": 94,
+      "active": false,
+      "records": "World record holder 100m and 200m"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 9,
+    "fields": {
+      "name": "Karch Kiraly",
+      "country": "USA",
+      "sport": 6,
+      "titles": 3,
+      "birthdate": "1960-11-03",
+      "gender": "Male",
+      "height": 1.88,
+      "weight": 88,
+      "active": false,
+      "records": "Only player with Olympic gold in indoor and beach volleyball"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 10,
+    "fields": {
+      "name": "Muhammad Ali",
+      "country": "USA",
+      "sport": 7,
+      "titles": 56,
+      "birthdate": "1942-01-17",
+      "gender": "Male",
+      "height": 1.91,
+      "weight": 107,
+      "active": false,
+      "records": "3-time World Heavyweight Champion"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 11,
+    "fields": {
+      "name": "Teddy Riner",
+      "country": "France",
+      "sport": 8,
+      "titles": 10,
+      "birthdate": "1989-04-07",
+      "gender": "Male",
+      "height": 2.04,
+      "weight": 130,
+      "active": true,
+      "records": "10-time World Judo Champion"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 12,
+    "fields": {
+      "name": "Simone Biles",
+      "country": "USA",
+      "sport": 9,
+      "titles": 32,
+      "birthdate": "1997-03-14",
+      "gender": "Female",
+      "height": 1.42,
+      "weight": 47,
+      "active": true,
+      "records": "Most decorated gymnast in history"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 13,
+    "fields": {
+      "name": "Ma Long",
+      "country": "China",
+      "sport": 10,
+      "titles": 5,
+      "birthdate": "1988-10-20",
+      "gender": "Male",
+      "height": 1.75,
+      "weight": 72,
+      "active": true,
+      "records": "Multiple Olympic and World Champion"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 14,
+    "fields": {
+      "name": "Lin Dan",
+      "country": "China",
+      "sport": 11,
+      "titles": 66,
+      "birthdate": "1983-10-14",
+      "gender": "Male",
+      "height": 1.78,
+      "weight": 70,
+      "active": false,
+      "records": "2-time Olympic champion in badminton"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 15,
+    "fields": {
+      "name": "Nikola Karabatić",
+      "country": "France",
+      "sport": 12,
+      "titles": 3,
+      "birthdate": "1984-04-11",
+      "gender": "Male",
+      "height": 1.96,
+      "weight": 102,
+      "active": true,
+      "records": "Multiple Olympic and World Champion"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 16,
+    "fields": {
+      "name": "Chris Froome",
+      "country": "UK",
+      "sport": 13,
+      "titles": 4,
+      "birthdate": "1985-05-20",
+      "gender": "Male",
+      "height": 1.86,
+      "weight": 69,
+      "active": true,
+      "records": "4-time Tour de France winner"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 17,
+    "fields": {
+      "name": "Richie McCaw",
+      "country": "New Zealand",
+      "sport": 14,
+      "titles": 2,
+      "birthdate": "1980-12-31",
+      "gender": "Male",
+      "height": 1.87,
+      "weight": 107,
+      "active": false,
+      "records": "2 Rugby World Cup wins"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 18,
+    "fields": {
+      "name": "Sachin Tendulkar",
+      "country": "India",
+      "sport": 15,
+      "titles": 100,
+      "birthdate": "1973-04-24",
+      "gender": "Male",
+      "height": 1.65,
+      "weight": 62,
+      "active": false,
+      "records": "Most runs in international cricket"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 19,
+    "fields": {
+      "name": "Babe Ruth",
+      "country": "USA",
+      "sport": 16,
+      "titles": 7,
+      "birthdate": "1895-02-06",
+      "gender": "Male",
+      "height": 1.88,
+      "weight": 98,
+      "active": false,
+      "records": "Legendary MLB player"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 20,
+    "fields": {
+      "name": "Jennie Finch",
+      "country": "USA",
+      "sport": 17,
+      "titles": 2,
+      "birthdate": "1980-09-03",
+      "gender": "Female",
+      "height": 1.83,
+      "weight": 77,
+      "active": false,
+      "records": "Olympic softball gold medalist"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 21,
+    "fields": {
+      "name": "Dhyan Chand",
+      "country": "India",
+      "sport": 18,
+      "titles": 3,
+      "birthdate": "1905-08-29",
+      "gender": "Male",
+      "height": 1.73,
+      "weight": 70,
+      "active": false,
+      "records": "3 Olympic gold medals in field hockey"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 22,
+    "fields": {
+      "name": "Kelly Slater",
+      "country": "USA",
+      "sport": 19,
+      "titles": 11,
+      "birthdate": "1972-02-11",
+      "gender": "Male",
+      "height": 1.75,
+      "weight": 73,
+      "active": true,
+      "records": "11-time surfing world champion"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 23,
+    "fields": {
+      "name": "Tony Hawk",
+      "country": "USA",
+      "sport": 20,
+      "titles": 16,
+      "birthdate": "1968-05-12",
+      "gender": "Male",
+      "height": 1.91,
+      "weight": 78,
+      "active": false,
+      "records": "First skateboarder to land a 900"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 24,
+    "fields": {
+      "name": "Adam Ondra",
+      "country": "Czech Republic",
+      "sport": 21,
+      "titles": 5,
+      "birthdate": "1993-02-05",
+      "gender": "Male",
+      "height": 1.86,
+      "weight": 70,
+      "active": true,
+      "records": "First climber to send 9c (5.15d)"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 25,
+    "fields": {
+      "name": "Ryo Kiyuna",
+      "country": "Japan",
+      "sport": 22,
+      "titles": 4,
+      "birthdate": "1990-07-12",
+      "gender": "Male",
+      "height": 1.70,
+      "weight": 75,
+      "active": true,
+      "records": "Olympic karate kata champion"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 26,
+    "fields": {
+      "name": "Steven Lopez",
+      "country": "USA",
+      "sport": 23,
+      "titles": 5,
+      "birthdate": "1978-11-09",
+      "gender": "Male",
+      "height": 1.83,
+      "weight": 80,
+      "active": false,
+      "records": "2-time Olympic taekwondo champion"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 27,
+    "fields": {
+      "name": "Valentina Vezzali",
+      "country": "Italy",
+      "sport": 24,
+      "titles": 6,
+      "birthdate": "1974-02-14",
+      "gender": "Female",
+      "height": 1.64,
+      "weight": 58,
+      "active": false,
+      "records": "6-time Olympic fencing medalist"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 28,
+    "fields": {
+      "name": "Steve Redgrave",
+      "country": "UK",
+      "sport": 25,
+      "titles": 5,
+      "birthdate": "1962-03-23",
+      "gender": "Male",
+      "height": 1.95,
+      "weight": 100,
+      "active": false,
+      "records": "5 consecutive Olympic golds in rowing"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 29,
+    "fields": {
+      "name": "Birgit Fischer",
+      "country": "Germany",
+      "sport": 26,
+      "titles": 8,
+      "birthdate": "1962-02-25",
+      "gender": "Female",
+      "height": 1.81,
+      "weight": 70,
+      "active": false,
+      "records": "8 Olympic golds in canoeing"
+    }
+  },
+  {
+    "model": "sports.famousathlete",
+    "pk": 30,
+    "fields": {
+      "name": "Lasha Talakhadze",
+      "country": "Georgia",
+      "sport": 27,
+      "titles": 5,
+      "birthdate": "1993-10-02",
+      "gender": "Male",
+      "height": 1.97,
+      "weight": 177,
+      "active": true,
+      "records": "World record holder in weightlifting"
     }
   }
 ]

@@ -1,21 +1,422 @@
 [
-    {
-      "model": "sports.sport",
-      "pk": 1,
-      "fields": {
-        "name": "Tennis",
-        "category": "Individual",
-        "olympic_sport": true
-      }
-    },
-    {
-      "model": "sports.sport",
-      "pk": 2,
-      "fields": {
-        "name": "Basketball",
-        "category": "Team",
-        "olympic_sport": true
-      }
+  {
+    "model": "sports.sport",
+    "pk": 1,
+    "fields": {
+      "name": "Tennis",
+      "category": "Racquet",
+      "olympic_sport": true,
+      "origin_country": "France",
+      "first_appearance": 1896,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "ITF"
     }
-  ]
-  
+  },
+  {
+    "model": "sports.sport",
+    "pk": 2,
+    "fields": {
+      "name": "Basketball",
+      "category": "Team",
+      "olympic_sport": true,
+      "origin_country": "USA",
+      "first_appearance": 1936,
+      "team_sport": true,
+      "number_of_players": 5,
+      "governing_body": "FIBA"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 3,
+    "fields": {
+      "name": "Football",
+      "category": "Team",
+      "olympic_sport": true,
+      "origin_country": "England",
+      "first_appearance": 1900,
+      "team_sport": true,
+      "number_of_players": 11,
+      "governing_body": "FIFA"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 4,
+    "fields": {
+      "name": "Swimming",
+      "category": "Aquatic",
+      "olympic_sport": true,
+      "origin_country": "Worldwide",
+      "first_appearance": 1896,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "FINA"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 5,
+    "fields": {
+      "name": "Athletics",
+      "category": "Track and Field",
+      "olympic_sport": true,
+      "origin_country": "Greece",
+      "first_appearance": 1896,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "World Athletics"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 6,
+    "fields": {
+      "name": "Volleyball",
+      "category": "Team",
+      "olympic_sport": true,
+      "origin_country": "USA",
+      "first_appearance": 1964,
+      "team_sport": true,
+      "number_of_players": 6,
+      "governing_body": "FIVB"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 7,
+    "fields": {
+      "name": "Boxing",
+      "category": "Combat",
+      "olympic_sport": true,
+      "origin_country": "Greece",
+      "first_appearance": 1904,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "AIBA"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 8,
+    "fields": {
+      "name": "Judo",
+      "category": "Martial Arts",
+      "olympic_sport": true,
+      "origin_country": "Japan",
+      "first_appearance": 1964,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "IJF"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 9,
+    "fields": {
+      "name": "Gymnastics",
+      "category": "Artistic",
+      "olympic_sport": true,
+      "origin_country": "Germany",
+      "first_appearance": 1896,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "FIG"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 10,
+    "fields": {
+      "name": "Table Tennis",
+      "category": "Racquet",
+      "olympic_sport": true,
+      "origin_country": "England",
+      "first_appearance": 1988,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "ITTF"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 11,
+    "fields": {
+      "name": "Badminton",
+      "category": "Racquet",
+      "olympic_sport": true,
+      "origin_country": "India",
+      "first_appearance": 1992,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "BWF"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 12,
+    "fields": {
+      "name": "Handball",
+      "category": "Team",
+      "olympic_sport": true,
+      "origin_country": "Germany",
+      "first_appearance": 1972,
+      "team_sport": true,
+      "number_of_players": 7,
+      "governing_body": "IHF"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 13,
+    "fields": {
+      "name": "Cycling",
+      "category": "Endurance",
+      "olympic_sport": true,
+      "origin_country": "France",
+      "first_appearance": 1896,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "UCI"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 14,
+    "fields": {
+      "name": "Rugby",
+      "category": "Team",
+      "olympic_sport": true,
+      "origin_country": "England",
+      "first_appearance": 1900,
+      "team_sport": true,
+      "number_of_players": 15,
+      "governing_body": "World Rugby"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 15,
+    "fields": {
+      "name": "Cricket",
+      "category": "Team",
+      "olympic_sport": false,
+      "origin_country": "England",
+      "first_appearance": null,
+      "team_sport": true,
+      "number_of_players": 11,
+      "governing_body": "ICC"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 16,
+    "fields": {
+      "name": "Baseball",
+      "category": "Team",
+      "olympic_sport": true,
+      "origin_country": "USA",
+      "first_appearance": 1992,
+      "team_sport": true,
+      "number_of_players": 9,
+      "governing_body": "WBSC"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 17,
+    "fields": {
+      "name": "Softball",
+      "category": "Team",
+      "olympic_sport": true,
+      "origin_country": "USA",
+      "first_appearance": 1996,
+      "team_sport": true,
+      "number_of_players": 9,
+      "governing_body": "WBSC"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 18,
+    "fields": {
+      "name": "Hockey",
+      "category": "Team",
+      "olympic_sport": true,
+      "origin_country": "England",
+      "first_appearance": 1908,
+      "team_sport": true,
+      "number_of_players": 11,
+      "governing_body": "FIH"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 19,
+    "fields": {
+      "name": "Surfing",
+      "category": "Water",
+      "olympic_sport": true,
+      "origin_country": "Hawaii",
+      "first_appearance": 2020,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "ISA"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 20,
+    "fields": {
+      "name": "Skateboarding",
+      "category": "Extreme",
+      "olympic_sport": true,
+      "origin_country": "USA",
+      "first_appearance": 2020,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "World Skate"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 21,
+    "fields": {
+      "name": "Climbing",
+      "category": "Extreme",
+      "olympic_sport": true,
+      "origin_country": "Worldwide",
+      "first_appearance": 2020,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "IFSC"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 22,
+    "fields": {
+      "name": "Karate",
+      "category": "Martial Arts",
+      "olympic_sport": true,
+      "origin_country": "Japan",
+      "first_appearance": 2020,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "WKF"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 23,
+    "fields": {
+      "name": "Taekwondo",
+      "category": "Martial Arts",
+      "olympic_sport": true,
+      "origin_country": "Korea",
+      "first_appearance": 2000,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "World Taekwondo"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 24,
+    "fields": {
+      "name": "Fencing",
+      "category": "Combat",
+      "olympic_sport": true,
+      "origin_country": "France",
+      "first_appearance": 1896,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "FIE"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 25,
+    "fields": {
+      "name": "Rowing",
+      "category": "Aquatic",
+      "olympic_sport": true,
+      "origin_country": "England",
+      "first_appearance": 1900,
+      "team_sport": true,
+      "number_of_players": 8,
+      "governing_body": "FISA"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 26,
+    "fields": {
+      "name": "Canoeing",
+      "category": "Aquatic",
+      "olympic_sport": true,
+      "origin_country": "Canada",
+      "first_appearance": 1936,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "ICF"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 27,
+    "fields": {
+      "name": "Weightlifting",
+      "category": "Strength",
+      "olympic_sport": true,
+      "origin_country": "Greece",
+      "first_appearance": 1896,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "IWF"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 28,
+    "fields": {
+      "name": "Equestrian",
+      "category": "Equestrian",
+      "olympic_sport": true,
+      "origin_country": "England",
+      "first_appearance": 1900,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "FEI"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 29,
+    "fields": {
+      "name": "Golf",
+      "category": "Precision",
+      "olympic_sport": true,
+      "origin_country": "Scotland",
+      "first_appearance": 1900,
+      "team_sport": false,
+      "number_of_players": 1,
+      "governing_body": "IGF"
+    }
+  },
+  {
+    "model": "sports.sport",
+    "pk": 30,
+    "fields": {
+      "name": "Lacrosse",
+      "category": "Team",
+      "olympic_sport": false,
+      "origin_country": "Canada",
+      "first_appearance": null,
+      "team_sport": true,
+      "number_of_players": 10,
+      "governing_body": "World Lacrosse"
+    }
+  }
+]

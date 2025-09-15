@@ -342,10 +342,68 @@ pytest
 
 ## Contributing
 
-* Keep the canonical data accurate and sourced. When adding or updating entries, document the source (URL or reference) in the commit message.
-* Prefer `fixtures/` or data migrations for static content so deployments are reproducible.
-* Run `python manage.py test` before opening pull requests.
+#### 🤝 How to Contribute (Super Simple)
 
+Want to contribute to this project? Awesome! Here’s a quick and easy guide:
+
+1 . Fork the repository
+```
+Click the Fork button (top right of this page) to create your own copy.
+````
+
+2 . Clone your fork
+
+```
+git clone https://github.com/<your-username>/sportsAPI.git
+cd sportsAPI
+```
+
+3 . Create a new branch for your work
+
+Pick a clear name and follow the commit conventions (see below 👇).
+Example:
+
+```
+git checkout -b feat/add-sport-endpoint
+```
+
+4 . Make your changes
+
+Implement your fix, feature, or docs update.\
+Example: **add new fields to the Sport model or improve the README.**
+
+5 . Write semantic commits (with emojis 🐙🦅🦁)
+
+We use semantic commits + fun emojis to keep history clean and readable.\
+Examples from this project:
+```
+feat: 🦅 add new fields inside models
+```
+```
+docs: 🐙 add complete README with setup, usage, and API documentation
+```
+```
+chore: 🦁 add Docker and docker-compose setup for project containerization
+```
+Commit your changes:
+```
+git add .
+git commit -m "feat: 🦅 add sport endpoint"
+```
+
+6 . Push your branch
+```
+git push origin feat/add-sport-endpoint
+```
+
+7 . Open a Pull Request 🚀
+
+Go to your fork on GitHub and click New Pull Request.
+
+Describe what you did, why, and (if possible) add screenshots or sample requests.
+
+
+✅ That’s it! Once reviewed and merged, your contribution will be part of the project. 🎉
 
 ---
 

@@ -29,3 +29,26 @@ class FamousAthlete(models.Model):
     def __str__(self):
         return self.name
 
+
+class Record(models.Model):
+    description = models.CharField(max_length=200)
+    value = models.CharField(max_length=100)
+    unit = models.CharField(max_length=50, null=True, blank=True)
+    year_set = models.IntegerField(null=True, blank=True)
+    athlete = models.ForeignKey(
+        'FamousAthlete',
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name='records_set'
+    )
+    sport = models.ForeignKey(
+        'Sport',
+        on_delete=models.CASCADE,
+        related_name='records'
+    )
+    still_active = models.BooleanField(default=True)
+    notes = models.TextField(null=True, blank=True)
+
+    def __str__(self):
+        return f"{self.description} - {self.value} ({self.sport.name})"
